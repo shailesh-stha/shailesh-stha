@@ -1,44 +1,32 @@
-# 🕵️ Welcome to my Profile!
+# 🗂️ System Directory: `~/[Your Name]`
 
-I am a software engineer, but before you read my resume, you have to escape this repository. 
-
-### 🚪 The Escape Room
+Click the folders below to navigate my profile.
 
 <details>
-<summary><strong>👉 START GAME: Enter the dark room...</strong></summary>
-<br>
-You find yourself in a dimly lit server room. The door behind you locks. In front of you is a glowing terminal and a suspicious red button.
+<summary>📁 <strong>/about_me</strong></summary>
 
-<details>
-<summary><strong>🔴 Push the red button</strong></summary>
-<br>
-An alarm blares! The servers overheat and the room fills with smoke. 
-<strong>💥 GAME OVER.</strong> 
-(Refresh the page to try again).
+> Hello! I'm a developer based in [Location].
+> I specialize in building efficient backend systems and I love debugging complex problems.
 </details>
 
 <details>
-<summary><strong>💻 Sit at the terminal</strong></summary>
-<br>
-The screen prompts you for a password to unlock the door.
+<summary>📁 <strong>/skills_and_tools</strong></summary>
 
-<details>
-<summary>⌨️ Type "password123"</summary>
-<br>
-The terminal flashes red. "INCORRECT." The keyboard locks up.
-<strong>💥 GAME OVER.</strong>
+* **Languages:** Python, JavaScript, SQL
+* **Frameworks:** React, Node.js, Django
+* **Tools:** Git, Docker, AWS
 </details>
 
 <details>
-<summary>⌨️ Type "sudo rm -rf /"</summary>
-<br>
-The door slides open! You step out into the light... and find my portfolio! 🎉
+<summary>📁 <strong>/current_projects</strong></summary>
 
-### 🏆 YOU WIN! Here is my actual info:
-* **Name:** [Your Name]
-* **Skills:** HTML, CSS, JavaScript, Escaping Server Rooms
-* **Current Status:** Looking for a great team to build cool things with.
+1. **Project Alpha:** A command-line tool for organizing files.
+2. **Project Beta:** A web app that tracks daily water intake.
+</details>
 
-</details>
-</details>
+<details>
+<summary>📁 <strong>/contact_info</strong></summary>
+
+* Email: `your.email@example.com`
+* LinkedIn: `linkedin.com/in/yourprofile`
 </details>
