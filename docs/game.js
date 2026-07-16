@@ -1,4 +1,4 @@
-// Duck Hunt Arcade — pure logic (no DOM) + canvas rendering/loop glue.
+// Duck Scout — pure logic (no DOM) + canvas rendering/loop glue.
 // Pure functions are exported so scripts/test-game-logic.mjs can assert on them from Node.
 
 export const DUCK_SPRITE = [

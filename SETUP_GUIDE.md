@@ -71,13 +71,13 @@ After changing config, run `node scripts/generate.js shailesh-stha/shailesh-stha
 
 The README embed above is a novelty limited by what GitHub allows inside rendered
 Markdown — no JavaScript, no real clicks, only pre-made links. For an actual free-flying,
-click-to-shoot Duck Hunt, there's a second, fully interactive game hosted on GitHub Pages.
+click-to-shoot game, there's a second, fully interactive game — **Duck Scout** — hosted on GitHub Pages.
 
 Each duck has a time limit (`timeLimitMs` in `difficultyForRound()`, `docs/game.js`) — past
 `WARNING_RATIO` (55%) of that limit it flashes a pulsing red ring + "!"; if it's not hit before
 the limit runs out it flies away and costs a life, same as missing all your bullets.
 
-### File map (arcade game)
+### File map (Duck Scout)
 
 ```
 docs/index.html                        ← the playable page (canvas, HUD, leaderboard panel)

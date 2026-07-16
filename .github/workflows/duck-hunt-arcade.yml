@@ -1,4 +1,4 @@
-name: "Duck Hunt Arcade: submit score"
+name: "Duck Scout: submit score"
 
 on:
   issues:
