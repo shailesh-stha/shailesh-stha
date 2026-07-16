@@ -1,0 +1,50 @@
+name: "Duck Hunt Arcade: submit score"
+
+on:
+  issues:
+    types: [opened]
+
+# Serialize games so two simultaneous submissions can't clobber each other
+concurrency:
+  group: duck-hunt-arcade
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  submit:
+    if: startsWith(github.event.issue.title, 'score|') || startsWith(github.event.issue.title, 'score |')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Process score
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: node scripts/submit-score.js
+
+      - name: Commit results
+        run: |
+          git config user.name "duck-hunt-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🦆 score submitted by @${{ github.event.issue.user.login }}"
+            git pull --rebase origin main || true
+            git push
+          fi

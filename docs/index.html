@@ -1,0 +1,181 @@
+<meta charset="utf-8"/>
+<title>Duck Scout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 12px;
+    background: #10151c;
+    color: #eef2f6;
+    font-family: "Courier New", monospace;
+  }
+  h1 { margin: 0; letter-spacing: 2px; }
+  .layout { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+  #stage { position: relative; }
+  canvas {
+    background: #64b5f6;
+    border: 4px solid #1a237e;
+    border-radius: 6px;
+    cursor: crosshair;
+    max-width: 90vw;
+    height: auto;
+  }
+  #hud {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000;
+    pointer-events: none;
+  }
+  #overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 15, 20, 0.85);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    padding: 16px;
+  }
+  #overlay.show { display: flex; }
+  a.btn, button.btn {
+    background: #2e7d32;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #leaderboard {
+    width: 260px;
+    background: #1b2430;
+    border: 2px solid #2c3a4d;
+    border-radius: 6px;
+    padding: 12px;
+  }
+  #leaderboard h2 { margin: 0 0 8px; font-size: 16px; }
+  #leaderboard table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  #leaderboard td, #leaderboard th { padding: 3px 4px; text-align: left; }
+  #leaderboard tr:nth-child(even) { background: #222c39; }
+
+</style>
+
+<h1>🦆 DUCK SCOUT</h1>
+
+<div class="layout">
+  <div id="stage">
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div id="hud">
+      <span id="hud-score">Score: 0</span>
+      <span id="hud-round">Round: 1</span>
+      <span id="hud-bullets">Bullets: 🔫🔫🔫</span>
+      <span id="hud-lives">Lives: ❤️❤️❤️</span>
+    </div>
+    <div id="overlay">
+      <h2 id="overlay-title">Game Over</h2>
+      <p id="overlay-score"></p>
+      <a id="submit-link" class="btn" target="_blank" rel="noopener">Submit score to leaderboard</a>
+      <button id="retry-btn" class="btn" style="background:#455a64">Play again</button>
+    </div>
+  </div>
+
+  <div id="leaderboard">
+    <h2>🏆 Leaderboard</h2>
+    <table id="leaderboard-table">
+      <tbody><tr><td>Loading…</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script type="module">
+  import { createGame } from "./game.js";
+
+  const OWNER_REPO = "shailesh-stha/shailesh-stha";
+  const canvas = document.getElementById("canvas");
+  const scoreEl = document.getElementById("hud-score");
+  const roundEl = document.getElementById("hud-round");
+  const bulletsEl = document.getElementById("hud-bullets");
+  const livesEl = document.getElementById("hud-lives");
+  const overlay = document.getElementById("overlay");
+  const overlayTitle = document.getElementById("overlay-title");
+  const overlayScore = document.getElementById("overlay-score");
+  const submitLink = document.getElementById("submit-link");
+  const retryBtn = document.getElementById("retry-btn");
+
+  const cfg = { startLives: 3, bulletsPerRound: 3 };
+  let game;
+
+  function tickHud() {
+    if (!game) return;
+    const s = game.getState();
+    scoreEl.textContent = `Score: ${s.score}`;
+    roundEl.textContent = `Round: ${s.round}`;
+    bulletsEl.textContent = `Bullets: ${"🔫".repeat(Math.max(0, s.bullets))}`;
+    livesEl.textContent = `Lives: ${"❤️".repeat(Math.max(0, s.lives))}`;
+    if (!s.over) requestAnimationFrame(tickHud);
+  }
+
+  function start() {
+    overlay.classList.remove("show");
+    game = createGame(canvas, {
+      cfg,
+      onScore: tickHud,
+      onRound: tickHud,
+      onLives: tickHud,
+      onGameOver: ({ score, round, elapsedMs }) => {
+        overlayTitle.textContent = "Game Over";
+        overlayScore.textContent = `Final score: ${score} — cleared ${round - 1} round(s)`;
+        const title = encodeURIComponent(`score|${score}|${Math.round(elapsedMs)}|${round - 1}`);
+        const body = encodeURIComponent(
+          "Pull the trigger by clicking **Create** below. A robot referee validates this score within ~30 seconds, comments the result here, and closes the issue."
+        );
+        submitLink.href = `https://github.com/${OWNER_REPO}/issues/new?title=${title}&body=${body}`;
+        overlay.classList.add("show");
+      },
+    });
+    requestAnimationFrame(tickHud);
+  }
+
+  retryBtn.addEventListener("click", start);
+  start();
+
+  async function loadLeaderboard() {
+    const tbody = document.querySelector("#leaderboard-table tbody");
+    try {
+      const res = await fetch(
+        `https://raw.githubusercontent.com/${OWNER_REPO}/main/game/arcade-state.json?t=${Date.now()}`
+      );
+      const data = await res.json();
+      const entries = Object.entries(data.leaderboard || {})
+        .map(([user, p]) => ({ user, ...p }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 10);
+      tbody.innerHTML = entries.length
+        ? entries
+            .map(
+              (e, i) =>
+                `<tr><td>${i + 1}</td><td>@${e.user}</td><td>${e.score}</td></tr>`
+            )
+            .join("")
+        : "<tr><td>No scores yet — be the first!</td></tr>";
+    } catch {
+      tbody.innerHTML = "<tr><td>Leaderboard unavailable.</td></tr>";
+    }
+  }
+  loadLeaderboard();
+</script>

@@ -1,0 +1,18 @@
+# Local Claude Code settings (machine-specific permissions, not shared config)
+.claude/settings.local.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Node (none of these scripts have deps today, but keep this ready)
+node_modules/
+npm-debug.log*
+
+# Local Python tooling used only for previewing README.md (grip), if ever run from inside the repo
+__pycache__/
+*.pyc
