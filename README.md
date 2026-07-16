@@ -1,31 +1,44 @@
-# ⚡ System Initialization Sequence
+# 🕵️ Welcome to my Profile!
 
-<p align="center">
-  <!-- This SVG runs a typing animation the exact second the page loads -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=00FF00&background=000000&center=false&vCenter=false&width=600&lines=Initializing+User+[Your Name]...;Loading+Skill+Modules...;Mounting+Open+Source+Contributions...;System+Ready.+Welcome." alt="Boot Sequence" />
-</p>
+I am a software engineer, but before you read my resume, you have to escape this repository. 
 
----
+### 🚪 The Escape Room
 
-### `> CURRENT_PROCESSES`
+<details>
+<summary><strong>👉 START GAME: Enter the dark room...</strong></summary>
+<br>
+You find yourself in a dimly lit server room. The door behind you locks. In front of you is a glowing terminal and a suspicious red button.
 
-| PID  | PROCESS_NAME       | STATUS   | ALLOCATED_RESOURCES |
-| :--- | :---               | :---     | :---                |
-| 001  | `brain.exe`        | RUNNING  | Coffee, Lo-Fi Music |
-| 002  | `frontend_dev.sh`  | SLEEPING | React, Tailwind     |
-| 003  | `backend_api.py`   | ACTIVE   | Node, Python        |
-| 004  | `bug_hunter.daemon`| CRASHED  | Stack Overflow      |
+<details>
+<summary><strong>🔴 Push the red button</strong></summary>
+<br>
+An alarm blares! The servers overheat and the room fills with smoke. 
+<strong>💥 GAME OVER.</strong> 
+(Refresh the page to try again).
+</details>
 
----
+<details>
+<summary><strong>💻 Sit at the terminal</strong></summary>
+<br>
+The screen prompts you for a password to unlock the door.
 
-### `> EXECUTE ./display_stats.sh`
+<details>
+<summary>⌨️ Type "password123"</summary>
+<br>
+The terminal flashes red. "INCORRECT." The keyboard locks up.
+<strong>💥 GAME OVER.</strong>
+</details>
 
-<p align="left">
-  <!-- These badges pull live data and update automatically -->
-  <img src="https://github-readme-stats.vercel.app/api?username=[Your GitHub Username]&theme=radical&hide_border=true&bg_color=000000&title_color=00FF00&text_color=FFFFFF" alt="System Stats" />
-</p>
+<details>
+<summary>⌨️ Type "sudo rm -rf /"</summary>
+<br>
+The door slides open! You step out into the light... and find my portfolio! 🎉
 
-### `> AWAITING_USER_INPUT...`
-* Drop a message in my inbox: **[your@email.com]**
-* Check my deployment logs: **[LinkedIn/Website Link]**
-* Or just fork a repo before you log out.
+### 🏆 YOU WIN! Here is my actual info:
+* **Name:** [Your Name]
+* **Skills:** HTML, CSS, JavaScript, Escaping Server Rooms
+* **Current Status:** Looking for a great team to build cool things with.
+
+</details>
+</details>
+</details>
