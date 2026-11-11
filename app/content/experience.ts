@@ -46,7 +46,8 @@ export const experience: ExperienceItem[] = [
   {
     id: "realpath-civil-engineer",
     role: "Civil Engineer",
-    organization: "Realpath Engineering Consultant Pvt. Ltd.",
+    organization: "Realpath Engineering Consultancy Pvt. Ltd.",
+    location: "Kathmandu, Nepal",
     start: "2017",
     end: "2021",
     bullets: [
