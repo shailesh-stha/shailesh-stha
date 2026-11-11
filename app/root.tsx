@@ -22,7 +22,7 @@ const ACCENT = "#3DBE8B";
 // theme.js mentions "</script>" in a comment, which would end an inline script early, so escape it.
 const bootScript = `${themeScript.replace(/<\/script/gi, "<\\/script")}\n;try{window.designTheme.setAccentColor("${ACCENT}")}catch(e){}`;
 
-export const links: Route.LinksFunction = () => [{ rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }];
+export const links: Route.LinksFunction = () => [{ rel: "icon", href: `${import.meta.env.BASE_URL}favicon.svg`, type: "image/svg+xml" }];
 
 export const meta: Route.MetaFunction = () => [
   { title: profile.siteTitle },

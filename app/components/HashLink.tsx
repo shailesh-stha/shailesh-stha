@@ -1,5 +1,5 @@
 import type { ComponentProps, MouseEvent } from "react";
-import { Link, useLocation } from "react-router";
+import { Link, useHref, useLocation } from "react-router";
 
 type HashLinkProps = Omit<ComponentProps<typeof Link>, "to"> & { to: string };
 
@@ -10,6 +10,7 @@ type HashLinkProps = Omit<ComponentProps<typeof Link>, "to"> & { to: string };
  */
 export function HashLink({ to, onClick, ...props }: HashLinkProps) {
   const { pathname } = useLocation();
+  const href = useHref(to); // includes the site's base path, which a bare "/#work" does not
 
   const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
     onClick?.(event);
@@ -22,7 +23,7 @@ export function HashLink({ to, onClick, ...props }: HashLinkProps) {
     event.preventDefault();
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     // Put the hash in the URL without a router navigation (the router would scroll instantly), then animate the scroll ourselves.
-    window.history.replaceState(window.history.state, "", to);
+    window.history.replaceState(window.history.state, "", href);
     target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
     // Keyboard and screen-reader users land in the section too.
     target.setAttribute("tabindex", "-1");
