@@ -1,0 +1,27 @@
+/* Layout for this site. Layout only, token values only, one layer (design-system/DESIGN.md rule 3). */
+@layer app {
+  /* Full-width marketing pages keep a side gutter around their centred columns. */
+  .app-gutter { padding-inline: var(--space-4); }
+  /* Above the phone breakpoint the navbar and footer use a --space-6 inset, so the page gutter matches it. */
+  @media (min-width: 40rem) {
+    .app-gutter { padding-inline: var(--space-6); }
+  }
+
+  /* One shared content width so the hero and every section share the same left edge. */
+  .app-wide { max-inline-size: var(--layout-modal-xl); }
+  .app-measure { max-inline-size: var(--layout-modal-md); }
+
+  /* Content sections: a compact rhythm, and anchors stop below the sticky navbar. */
+  .app-section { padding-block: var(--space-8); scroll-margin-block-start: var(--space-12); }
+
+  /* Hero: the decorative graph canvas fills the section behind the text. */
+  .app-hero { position: relative; overflow: hidden; display: grid; align-items: center; min-block-size: 70vh; }
+  .app-hero__canvas { position: absolute; inset: 0; inline-size: 100%; block-size: 100%; z-index: 0; }
+  .app-hero__content { position: relative; z-index: 1; }
+
+  /* Cards in one row share the row height (the system grid aligns items to the start). */
+  .app-equal { align-items: stretch; }
+
+  /* Experience and education rows: bullets sit under the title. */
+  .app-entry { inline-size: 100%; }
+}

@@ -1,0 +1,7 @@
+[
+  { "name": "home", "url": "http://127.0.0.1:3030/", "archetype": "intro" },
+  { "name": "work-detail", "url": "http://127.0.0.1:3030/work/str-ai", "archetype": "detail" },
+  { "name": "cv", "url": "http://127.0.0.1:3030/cv", "archetype": "guide" },
+  { "name": "imprint", "url": "http://127.0.0.1:3030/imprint", "archetype": "guide" },
+  { "name": "privacy", "url": "http://127.0.0.1:3030/privacy", "archetype": "guide" }
+]

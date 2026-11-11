@@ -9,9 +9,26 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Node (none of these scripts have deps today, but keep this ready)
+# Node
 node_modules/
 npm-debug.log*
+*.tsbuildinfo
+
+# React Router
+/.react-router/
+/build/
+
+# Cloudflare
+.mf
+.wrangler
+.dev.vars*
+worker-configuration.d.ts
+
+# Design review screenshots
+.design-review/
+
+# Local environment
+.env
 
 # Local Python tooling used only for previewing README.md (grip), if ever run from inside the repo
 __pycache__/
