@@ -1,0 +1,249 @@
+{
+  "$description": "Chart colours per design theme, generated from tokens/dataviz.json: categorical (series 1..n), sequential and diverging ramps, named palettes (palettes.sequential, palettes.diverging: name to hex steps) for switchable legends, plus grid/axis/label colours. Use with d3: d3.scaleOrdinal(theme.dark.categorical).",
+  "dark": {
+    "categorical": [
+      "#ff54be",
+      "#2e9aff",
+      "#feab4c",
+      "#5fcc91",
+      "#a3912d",
+      "#b8baff",
+      "#8ff2f9",
+      "#939393"
+    ],
+    "palettes": {
+      "sequential": {
+        "teal": [
+          "#379392",
+          "#1facab",
+          "#20c4c2",
+          "#20dcda",
+          "#45f0ee",
+          "#9efefc"
+        ],
+        "heat": [
+          "#ffe7a1",
+          "#ffc878",
+          "#ffa76d",
+          "#ff8264",
+          "#f45f58",
+          "#cb5755"
+        ],
+        "blues": [
+          "#c9eefe",
+          "#92dbfe",
+          "#4fc7ff",
+          "#0bb1f3",
+          "#039adc",
+          "#0083c4"
+        ],
+        "viridis": [
+          "#a662b4",
+          "#8c89d4",
+          "#68b0c7",
+          "#55d0aa",
+          "#90e766",
+          "#ffe967"
+        ],
+        "greys": [
+          "#e8e8e8",
+          "#d1d1d1",
+          "#bbbbbb",
+          "#a6a6a6",
+          "#919191",
+          "#7c7c7c"
+        ],
+        "plasma": [
+          "#8862ed",
+          "#c365ff",
+          "#fc74d5",
+          "#fea39d",
+          "#ffc78d",
+          "#e8f211"
+        ]
+      },
+      "diverging": {
+        "orange-teal": [
+          "#fdbea2",
+          "#fd9667",
+          "#cb8c71",
+          "#8b8b8b",
+          "#5da2d2",
+          "#45bafd",
+          "#9ad2fe"
+        ],
+        "red-blue": [
+          "#fedad7",
+          "#ffb1ab",
+          "#d89893",
+          "#8c8c8c",
+          "#81add0",
+          "#88ccff",
+          "#cae6ff"
+        ],
+        "purple-green": [
+          "#f8d8ff",
+          "#e9b2f7",
+          "#ba9fc0",
+          "#8c8c8c",
+          "#90b092",
+          "#90d597",
+          "#8cfa9c"
+        ],
+        "brown-teal": [
+          "#fedcc2",
+          "#efbb90",
+          "#bfa38e",
+          "#8c8c8c",
+          "#7fb1b0",
+          "#61d7d4",
+          "#13fcf9"
+        ]
+      }
+    },
+    "sequential": [
+      "#379392",
+      "#1facab",
+      "#20c4c2",
+      "#20dcda",
+      "#45f0ee",
+      "#9efefc"
+    ],
+    "diverging": [
+      "#fdbea2",
+      "#fd9667",
+      "#cb8c71",
+      "#8b8b8b",
+      "#5da2d2",
+      "#45bafd",
+      "#9ad2fe"
+    ],
+    "grid": "rgba(255, 255, 255, 0.10)",
+    "axis": "#a1a1aa",
+    "label": "#d9d9dd",
+    "muted": "#7d7d87"
+  },
+  "light": {
+    "categorical": [
+      "#b8106f",
+      "#026ab6",
+      "#c27313",
+      "#016338",
+      "#5b6905",
+      "#7f7dd1",
+      "#23939c",
+      "#49545b"
+    ],
+    "palettes": {
+      "sequential": {
+        "teal": [
+          "#449e9c",
+          "#018b89",
+          "#0b7776",
+          "#106463",
+          "#015251",
+          "#064040"
+        ],
+        "heat": [
+          "#a98f00",
+          "#a77300",
+          "#ac5000",
+          "#b10b03",
+          "#910017",
+          "#710014"
+        ],
+        "blues": [
+          "#5899b3",
+          "#0987ad",
+          "#037299",
+          "#005e84",
+          "#004a6e",
+          "#013857"
+        ],
+        "viridis": [
+          "#561665",
+          "#3b3f81",
+          "#026075",
+          "#02795d",
+          "#348f07",
+          "#a09200"
+        ],
+        "greys": [
+          "#919191",
+          "#7d7d7d",
+          "#6a6a6a",
+          "#585858",
+          "#464646",
+          "#353535"
+        ],
+        "plasma": [
+          "#2c1998",
+          "#6b02a9",
+          "#a11381",
+          "#b94043",
+          "#b26d00",
+          "#919700"
+        ]
+      },
+      "diverging": {
+        "orange-teal": [
+          "#a63b02",
+          "#b35427",
+          "#af7358",
+          "#8b8b8b",
+          "#3e88b6",
+          "#1777a6",
+          "#14648d"
+        ],
+        "red-blue": [
+          "#810019",
+          "#9d2e32",
+          "#9b625d",
+          "#8c8c8c",
+          "#487696",
+          "#025c84",
+          "#024260"
+        ],
+        "purple-green": [
+          "#63187b",
+          "#744482",
+          "#816987",
+          "#8c8c8c",
+          "#5a785c",
+          "#1f632e",
+          "#004819"
+        ],
+        "brown-teal": [
+          "#603200",
+          "#774d28",
+          "#856c59",
+          "#8c8c8c",
+          "#497978",
+          "#026160",
+          "#004645"
+        ]
+      }
+    },
+    "sequential": [
+      "#449e9c",
+      "#018b89",
+      "#0b7776",
+      "#106463",
+      "#015251",
+      "#064040"
+    ],
+    "diverging": [
+      "#a63b02",
+      "#b35427",
+      "#af7358",
+      "#8b8b8b",
+      "#3e88b6",
+      "#1777a6",
+      "#14648d"
+    ],
+    "grid": "rgba(0, 0, 0, 0.10)",
+    "axis": "#5a5a64",
+    "label": "#2f2f2f",
+    "muted": "#6b6b75"
+  }
+}

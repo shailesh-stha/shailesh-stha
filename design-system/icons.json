@@ -1,0 +1,2958 @@
+{
+ "activity": {
+  "source": "lucide",
+  "tags": [
+   "action",
+   "aftershock",
+   "audio",
+   "defibrillator",
+   "earthquake",
+   "emergency room",
+   "er",
+   "events",
+   "exercise",
+   "feed",
+   "fitness",
+   "healthcare",
+   "heart rate monitor",
+   "hospital",
+   "intensive care",
+   "magnitude",
+   "motion",
+   "movement",
+   "music",
+   "pulse",
+   "richter scale",
+   "seismic",
+   "shockwave",
+   "synthesiser",
+   "synthesizer",
+   "tremor",
+   "vital signs",
+   "vitals",
+   "waveform"
+  ]
+ },
+ "align-center-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-center-vertical": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-end-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "bottom",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-end-vertical": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "right",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-horizontal-distribute-center": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "flex",
+   "justify",
+   "space",
+   "evenly",
+   "around",
+   "align",
+   "distribute",
+   "canvas"
+  ]
+ },
+ "align-left": {
+  "source": "lucide",
+  "tags": [
+   "text align",
+   "left align",
+   "paragraph"
+  ]
+ },
+ "align-start-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "top",
+   "items",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-start-vertical": {
+  "source": "lucide",
+  "tags": [
+   "left",
+   "items",
+   "flex",
+   "justify",
+   "align",
+   "canvas"
+  ]
+ },
+ "align-vertical-distribute-center": {
+  "source": "lucide",
+  "tags": [
+   "items",
+   "flex",
+   "justify",
+   "space",
+   "evenly",
+   "around",
+   "align",
+   "distribute",
+   "canvas"
+  ]
+ },
+ "archive": {
+  "source": "lucide",
+  "tags": [
+   "index",
+   "backup",
+   "box",
+   "storage",
+   "records"
+  ]
+ },
+ "arrow-down": {
+  "source": "lucide",
+  "tags": [
+   "backwards",
+   "reverse",
+   "direction",
+   "south"
+  ]
+ },
+ "arrow-down-to-line": {
+  "source": "lucide",
+  "tags": [
+   "jump to end",
+   "scroll to bottom",
+   "latest",
+   "follow tail",
+   "download"
+  ]
+ },
+ "arrow-down-wide-narrow": {
+  "source": "lucide",
+  "tags": [
+   "filter",
+   "sort",
+   "ascending",
+   "descending",
+   "increasing",
+   "decreasing",
+   "rising",
+   "falling"
+  ]
+ },
+ "arrow-left": {
+  "source": "lucide",
+  "tags": [
+   "previous",
+   "back",
+   "direction",
+   "west",
+   "<-"
+  ]
+ },
+ "arrow-right": {
+  "source": "lucide",
+  "tags": [
+   "forward",
+   "next",
+   "direction",
+   "east",
+   "->"
+  ]
+ },
+ "arrow-up": {
+  "source": "lucide",
+  "tags": [
+   "forward",
+   "direction",
+   "north"
+  ]
+ },
+ "arrow-up-down": {
+  "source": "lucide",
+  "tags": [
+   "bidirectional",
+   "two-way",
+   "2-way",
+   "swap",
+   "switch",
+   "network",
+   "mobile data",
+   "internet",
+   "sort",
+   "reorder",
+   "move"
+  ]
+ },
+ "arrow-up-right": {
+  "source": "lucide",
+  "tags": [
+   "external",
+   "open in new tab",
+   "outbound link",
+   "go to"
+  ]
+ },
+ "arrow-up-wide-narrow": {
+  "source": "lucide",
+  "tags": [
+   "sort",
+   "ascending",
+   "order",
+   "rank",
+   "smallest first"
+  ]
+ },
+ "audio-lines": {
+  "source": "lucide",
+  "tags": [
+   "waveform",
+   "sound",
+   "voice over",
+   "audio clip",
+   "speech"
+  ]
+ },
+ "bell": {
+  "source": "lucide",
+  "tags": [
+   "alarm",
+   "notification",
+   "sound",
+   "reminder"
+  ]
+ },
+ "blend": {
+  "source": "lucide",
+  "tags": [
+   "transition",
+   "cross fade",
+   "mix",
+   "overlap",
+   "blend mode"
+  ]
+ },
+ "bold": {
+  "source": "lucide",
+  "tags": [
+   "strong",
+   "format",
+   "text style"
+  ]
+ },
+ "book-open": {
+  "source": "lucide",
+  "tags": [
+   "academy",
+   "author",
+   "blank",
+   "booklet",
+   "college",
+   "docs",
+   "documentation",
+   "education",
+   "fiction",
+   "guide",
+   "high school",
+   "homework",
+   "information",
+   "knowledge",
+   "leaflet",
+   "learning",
+   "library",
+   "magazine",
+   "manual",
+   "novel",
+   "pages",
+   "pamphlet",
+   "plain",
+   "reading",
+   "research",
+   "revealed",
+   "screenplay",
+   "script",
+   "story",
+   "student",
+   "study",
+   "university",
+   "writer",
+   "writing",
+   "written"
+  ]
+ },
+ "book-open-text": {
+  "source": "lucide",
+  "tags": [
+   "docs",
+   "documentation",
+   "manual",
+   "reading",
+   "guide"
+  ]
+ },
+ "bookmark": {
+  "source": "lucide",
+  "tags": [
+   "save",
+   "favorite",
+   "mark",
+   "label",
+   "attachment",
+   "file",
+   "stick",
+   "pin",
+   "read",
+   "clip",
+   "marker",
+   "tag"
+  ]
+ },
+ "bot": {
+  "source": "lucide",
+  "tags": [
+   "robot",
+   "ai",
+   "chat",
+   "assistant"
+  ]
+ },
+ "box": {
+  "source": "lucide",
+  "tags": [
+   "3d model",
+   "cube",
+   "object",
+   "package",
+   "viewer"
+  ]
+ },
+ "boxes": {
+  "source": "lucide",
+  "tags": [
+   "cubes",
+   "packages",
+   "parts",
+   "group",
+   "units",
+   "collection",
+   "cluster",
+   "geometry"
+  ]
+ },
+ "braces": {
+  "source": "lucide",
+  "tags": [
+   "json",
+   "code",
+   "token",
+   "curly brackets",
+   "data",
+   "{",
+   "}"
+  ]
+ },
+ "brain": {
+  "source": "lucide",
+  "tags": [
+   "medical",
+   "mind",
+   "mental",
+   "intellect",
+   "cerebral",
+   "consciousness",
+   "genius",
+   "artificial intelligence",
+   "ai",
+   "think",
+   "thought",
+   "insight",
+   "intelligent",
+   "smart"
+  ]
+ },
+ "brain-circuit": {
+  "source": "lucide",
+  "tags": [
+   "mind",
+   "intellect",
+   "artificial intelligence",
+   "ai",
+   "deep learning",
+   "machine learning",
+   "computing"
+  ]
+ },
+ "brand-anthropic": {
+  "source": "custom",
+  "tags": [
+   "anthropic",
+   "claude",
+   "ai",
+   "llm",
+   "model provider",
+   "brand"
+  ]
+ },
+ "brand-gemini": {
+  "source": "custom",
+  "tags": [
+   "google",
+   "gemini",
+   "ai",
+   "llm",
+   "model provider",
+   "brand"
+  ]
+ },
+ "brand-openai": {
+  "source": "custom",
+  "tags": [
+   "openai",
+   "gpt",
+   "chatgpt",
+   "ai",
+   "llm",
+   "model provider",
+   "brand"
+  ]
+ },
+ "brand-openrouter": {
+  "source": "custom",
+  "tags": [
+   "openrouter",
+   "router",
+   "gateway",
+   "ai",
+   "llm",
+   "model provider",
+   "brand"
+  ]
+ },
+ "brand-xai": {
+  "source": "custom",
+  "tags": [
+   "xai",
+   "grok",
+   "ai",
+   "llm",
+   "model provider",
+   "brand"
+  ]
+ },
+ "briefcase-business": {
+  "source": "lucide",
+  "tags": [
+   "work",
+   "bag",
+   "baggage",
+   "folder",
+   "portfolio"
+  ]
+ },
+ "bug": {
+  "source": "lucide",
+  "tags": [
+   "issue",
+   "error",
+   "defect",
+   "testing",
+   "troubleshoot",
+   "problem",
+   "report",
+   "debug",
+   "code",
+   "insect",
+   "beetle"
+  ]
+ },
+ "building-2": {
+  "source": "lucide",
+  "tags": []
+ },
+ "cable": {
+  "source": "lucide",
+  "tags": [
+   "connection",
+   "wire",
+   "plug",
+   "link devices",
+   "cable"
+  ]
+ },
+ "calculator": {
+  "source": "lucide",
+  "tags": [
+   "calculation",
+   "compute",
+   "maths",
+   "arithmetic",
+   "totals"
+  ]
+ },
+ "calendar": {
+  "source": "lucide",
+  "tags": [
+   "date",
+   "month",
+   "year",
+   "event",
+   "birthday",
+   "birthdate"
+  ]
+ },
+ "calendar-clock": {
+  "source": "lucide",
+  "tags": [
+   "schedule",
+   "deadline",
+   "due date",
+   "date and time",
+   "appointment"
+  ]
+ },
+ "calendar-days": {
+  "source": "lucide",
+  "tags": [
+   "date",
+   "calendar",
+   "day picker",
+   "month",
+   "schedule"
+  ]
+ },
+ "camera": {
+  "source": "lucide",
+  "tags": [
+   "photography",
+   "lens",
+   "focus",
+   "capture",
+   "shot",
+   "visual",
+   "image",
+   "device",
+   "equipment",
+   "photo",
+   "webcam",
+   "video"
+  ]
+ },
+ "captions": {
+  "source": "lucide",
+  "tags": [
+   "subtitles",
+   "caption track",
+   "closed captions",
+   "text track",
+   "cc"
+  ]
+ },
+ "chart-bar": {
+  "source": "lucide",
+  "tags": [
+   "bar chart",
+   "horizontal bars",
+   "graph",
+   "analytics",
+   "statistics"
+  ]
+ },
+ "chart-column": {
+  "source": "lucide",
+  "tags": [
+   "column chart",
+   "vertical bars",
+   "histogram",
+   "graph",
+   "analytics"
+  ]
+ },
+ "chart-line": {
+  "source": "lucide",
+  "tags": [
+   "line chart",
+   "graph",
+   "trend",
+   "analytics",
+   "plot",
+   "time series"
+  ]
+ },
+ "check": {
+  "source": "lucide",
+  "tags": [
+   "done",
+   "todo",
+   "tick",
+   "complete",
+   "task"
+  ]
+ },
+ "chevron-down": {
+  "source": "lucide",
+  "tags": [
+   "backwards",
+   "reverse",
+   "slow",
+   "dropdown"
+  ]
+ },
+ "chevron-left": {
+  "source": "lucide",
+  "tags": [
+   "back",
+   "previous",
+   "less than",
+   "fewer",
+   "menu",
+   "<"
+  ]
+ },
+ "chevron-right": {
+  "source": "lucide",
+  "tags": [
+   "forward",
+   "next",
+   "more than",
+   "greater",
+   "menu",
+   "code",
+   "coding",
+   "command line",
+   "terminal",
+   "prompt",
+   "shell",
+   ">"
+  ]
+ },
+ "chevron-up": {
+  "source": "lucide",
+  "tags": [
+   "caret",
+   "keyboard",
+   "mac",
+   "control",
+   "ctrl",
+   "superscript",
+   "exponential",
+   "power",
+   "ahead",
+   "fast",
+   "^",
+   "dropdown"
+  ]
+ },
+ "chevrons-left": {
+  "source": "lucide",
+  "tags": [
+   "first page",
+   "pagination",
+   "double arrow",
+   "skip back",
+   "rewind"
+  ]
+ },
+ "chevrons-right": {
+  "source": "lucide",
+  "tags": [
+   "last page",
+   "pagination",
+   "double arrow",
+   "skip forward",
+   "fast forward"
+  ]
+ },
+ "circle": {
+  "source": "lucide",
+  "tags": [
+   "off",
+   "zero",
+   "record",
+   "shape"
+  ]
+ },
+ "circle-alert": {
+  "source": "lucide",
+  "tags": [
+   "alert",
+   "danger",
+   "error",
+   "exclamation mark",
+   "problem",
+   "warning"
+  ]
+ },
+ "circle-check": {
+  "source": "lucide",
+  "tags": [
+   "complete",
+   "done",
+   "ok",
+   "success",
+   "task",
+   "tick",
+   "todo"
+  ]
+ },
+ "circle-dashed": {
+  "source": "lucide",
+  "tags": [
+   "pending",
+   "placeholder",
+   "empty step",
+   "not started",
+   "optional"
+  ]
+ },
+ "circle-dot": {
+  "source": "lucide",
+  "tags": [
+   "joint",
+   "node",
+   "point",
+   "radio",
+   "target"
+  ]
+ },
+ "circle-help": {
+  "source": "lucide",
+  "tags": [
+   "help",
+   "question",
+   "support",
+   "faq",
+   "hint"
+  ]
+ },
+ "circle-x": {
+  "source": "lucide",
+  "tags": [
+   "cancel",
+   "close",
+   "delete",
+   "remove",
+   "times",
+   "clear",
+   "error",
+   "incorrect",
+   "wrong",
+   "mistake",
+   "failure",
+   "linter",
+   "multiply",
+   "multiplication"
+  ]
+ },
+ "clipboard": {
+  "source": "lucide",
+  "tags": [
+   "copy",
+   "paste"
+  ]
+ },
+ "clipboard-list": {
+  "source": "lucide",
+  "tags": [
+   "copy",
+   "paste",
+   "tasks"
+  ]
+ },
+ "clipboard-paste": {
+  "source": "lucide",
+  "tags": [
+   "paste",
+   "paste from clipboard",
+   "insert copied",
+   "import text",
+   "clipboard"
+  ]
+ },
+ "clock": {
+  "source": "lucide",
+  "tags": [
+   "time",
+   "watch",
+   "alarm"
+  ]
+ },
+ "code": {
+  "source": "lucide",
+  "tags": [
+   "source",
+   "programming",
+   "html",
+   "xml"
+  ]
+ },
+ "columns-2": {
+  "source": "lucide",
+  "tags": [
+   "split view",
+   "two columns",
+   "side by side",
+   "panes"
+  ]
+ },
+ "command": {
+  "source": "lucide",
+  "tags": [
+   "cmd",
+   "command palette",
+   "shortcut",
+   "keyboard",
+   "mac"
+  ]
+ },
+ "copy": {
+  "source": "lucide",
+  "tags": [
+   "clone",
+   "duplicate",
+   "multiple"
+  ]
+ },
+ "cpu": {
+  "source": "lucide",
+  "tags": [
+   "processor",
+   "cores",
+   "technology",
+   "computer",
+   "chip",
+   "circuit",
+   "memory",
+   "ram",
+   "specs",
+   "gigahertz",
+   "ghz"
+  ]
+ },
+ "crop": {
+  "source": "lucide",
+  "tags": [
+   "photo",
+   "image",
+   "trim",
+   "cut",
+   "resize"
+  ]
+ },
+ "crosshair": {
+  "source": "lucide",
+  "tags": [
+   "target",
+   "pick",
+   "center",
+   "viewer"
+  ]
+ },
+ "database": {
+  "source": "lucide",
+  "tags": [
+   "storage",
+   "memory",
+   "container",
+   "tin",
+   "pot",
+   "bytes",
+   "servers"
+  ]
+ },
+ "database-backup": {
+  "source": "lucide",
+  "tags": [
+   "storage",
+   "memory",
+   "bytes",
+   "servers",
+   "backup",
+   "timemachine",
+   "rotate",
+   "arrow",
+   "left"
+  ]
+ },
+ "diamond": {
+  "source": "lucide",
+  "tags": [
+   "keyframe",
+   "marker",
+   "animation point",
+   "rhombus",
+   "waypoint"
+  ]
+ },
+ "download": {
+  "source": "lucide",
+  "tags": [
+   "import",
+   "export",
+   "save"
+  ]
+ },
+ "ellipsis": {
+  "source": "lucide",
+  "tags": [
+   "...",
+   "actions",
+   "code",
+   "coding",
+   "dots",
+   "et cetera",
+   "etc",
+   "extra",
+   "further",
+   "loader",
+   "loading",
+   "menu",
+   "more",
+   "operator",
+   "options",
+   "overflow",
+   "pending",
+   "progress",
+   "rest",
+   "spread",
+   "throbber",
+   "…"
+  ]
+ },
+ "ellipsis-vertical": {
+  "source": "lucide",
+  "tags": [
+   "more actions",
+   "kebab",
+   "row menu"
+  ]
+ },
+ "eraser": {
+  "source": "lucide",
+  "tags": [
+   "clear",
+   "clear log",
+   "wipe",
+   "remove output"
+  ]
+ },
+ "external-link": {
+  "source": "lucide",
+  "tags": [
+   "outbound",
+   "open",
+   "share"
+  ]
+ },
+ "eye": {
+  "source": "lucide",
+  "tags": [
+   "view",
+   "watch",
+   "see",
+   "show",
+   "expose",
+   "reveal",
+   "display",
+   "visible",
+   "visibility",
+   "vision",
+   "preview",
+   "read"
+  ]
+ },
+ "eye-off": {
+  "source": "lucide",
+  "tags": [
+   "view",
+   "watch",
+   "see",
+   "hide",
+   "conceal",
+   "mask",
+   "hidden",
+   "visibility",
+   "vision"
+  ]
+ },
+ "file": {
+  "source": "lucide",
+  "tags": [
+   "document"
+  ]
+ },
+ "file-braces": {
+  "source": "lucide",
+  "tags": [
+   "code",
+   "json",
+   "curly braces",
+   "curly brackets"
+  ]
+ },
+ "file-code": {
+  "source": "lucide",
+  "tags": [
+   "source file",
+   "script",
+   "code file",
+   "snippet"
+  ]
+ },
+ "file-plus": {
+  "source": "lucide",
+  "tags": [
+   "new file",
+   "add file",
+   "create document"
+  ]
+ },
+ "file-spreadsheet": {
+  "source": "lucide",
+  "tags": [
+   "spreadsheet",
+   "sheet",
+   "table"
+  ]
+ },
+ "file-text": {
+  "source": "lucide",
+  "tags": [
+   "data",
+   "txt",
+   "pdf",
+   "document"
+  ]
+ },
+ "file-type-2": {
+  "source": "lucide",
+  "tags": [
+   "text format",
+   "font",
+   "typography",
+   "plain text",
+   "convert"
+  ]
+ },
+ "film": {
+  "source": "lucide",
+  "tags": [
+   "movie",
+   "video",
+   "reel",
+   "camera",
+   "cinema",
+   "entertainment"
+  ]
+ },
+ "flag": {
+  "source": "lucide",
+  "tags": [
+   "report",
+   "marker",
+   "notification",
+   "warning",
+   "milestone",
+   "goal",
+   "notice",
+   "signal",
+   "attention",
+   "banner"
+  ]
+ },
+ "flask-conical": {
+  "source": "lucide",
+  "tags": [
+   "beaker",
+   "erlenmeyer",
+   "lab",
+   "chemistry",
+   "experiment",
+   "test"
+  ]
+ },
+ "flip-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "mirror",
+   "reflect",
+   "symmetric",
+   "symmetry"
+  ]
+ },
+ "folder": {
+  "source": "lucide",
+  "tags": [
+   "directory"
+  ]
+ },
+ "folder-archive": {
+  "source": "lucide",
+  "tags": [
+   "archive",
+   "zip folder",
+   "backup",
+   "stored",
+   "compressed"
+  ]
+ },
+ "folder-kanban": {
+  "source": "lucide",
+  "tags": [
+   "project folder",
+   "board folder",
+   "workspace",
+   "projects",
+   "kanban"
+  ]
+ },
+ "folder-open": {
+  "source": "lucide",
+  "tags": [
+   "directory"
+  ]
+ },
+ "folder-plus": {
+  "source": "lucide",
+  "tags": [
+   "new folder",
+   "add folder",
+   "create folder"
+  ]
+ },
+ "folder-up": {
+  "source": "lucide",
+  "tags": [
+   "upload folder",
+   "bulk upload",
+   "parent folder",
+   "send to folder",
+   "go up"
+  ]
+ },
+ "folders": {
+  "source": "lucide",
+  "tags": [
+   "copy",
+   "directories",
+   "multiple",
+   "projects"
+  ]
+ },
+ "frame": {
+  "source": "lucide",
+  "tags": [
+   "exact frame",
+   "crop frame",
+   "picture frame",
+   "single frame",
+   "bounds"
+  ]
+ },
+ "funnel": {
+  "source": "lucide",
+  "tags": [
+   "filter",
+   "hopper"
+  ]
+ },
+ "gauge": {
+  "source": "lucide",
+  "tags": [
+   "dashboard",
+   "dial",
+   "meter",
+   "speed",
+   "pressure",
+   "measure",
+   "level"
+  ]
+ },
+ "git-branch": {
+  "source": "lucide",
+  "tags": [
+   "code",
+   "version control",
+   "vcs",
+   "repository"
+  ]
+ },
+ "git-merge": {
+  "source": "lucide",
+  "tags": [
+   "code",
+   "version control"
+  ]
+ },
+ "globe": {
+  "source": "lucide",
+  "tags": [
+   "website",
+   "language",
+   "international",
+   "web",
+   "locale",
+   "world"
+  ]
+ },
+ "grid-3x3": {
+  "source": "lucide",
+  "tags": [
+   "grid",
+   "snap to grid",
+   "layout grid",
+   "cells",
+   "canvas"
+  ]
+ },
+ "grip-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "resize handle",
+   "drag handle",
+   "splitter"
+  ]
+ },
+ "grip-vertical": {
+  "source": "lucide",
+  "tags": [
+   "drag handle",
+   "reorder",
+   "sort handle"
+  ]
+ },
+ "hand": {
+  "source": "lucide",
+  "tags": [
+   "pan tool",
+   "drag",
+   "grab",
+   "canvas"
+  ]
+ },
+ "hash": {
+  "source": "lucide",
+  "tags": [
+   "hashtag",
+   "number",
+   "pound"
+  ]
+ },
+ "heart-crack": {
+  "source": "lucide",
+  "tags": [
+   "sad",
+   "heartbreak",
+   "negative emotion",
+   "mood",
+   "loss"
+  ]
+ },
+ "history": {
+  "source": "lucide",
+  "tags": [
+   "clock",
+   "log",
+   "recent",
+   "undo"
+  ]
+ },
+ "house": {
+  "source": "lucide",
+  "tags": [
+   "architecture",
+   "building",
+   "home",
+   "living",
+   "residence"
+  ]
+ },
+ "image": {
+  "source": "lucide",
+  "tags": [
+   "photo",
+   "picture",
+   "screenshot"
+  ]
+ },
+ "image-plus": {
+  "source": "lucide",
+  "tags": [
+   "add image",
+   "upload picture",
+   "new image",
+   "insert image",
+   "import image"
+  ]
+ },
+ "images": {
+  "source": "lucide",
+  "tags": [
+   "gallery",
+   "media library",
+   "photos",
+   "pictures",
+   "image set"
+  ]
+ },
+ "inbox": {
+  "source": "lucide",
+  "tags": [
+   "email"
+  ]
+ },
+ "info": {
+  "source": "lucide",
+  "tags": [
+   "about",
+   "advice",
+   "clue",
+   "details",
+   "help",
+   "hint",
+   "indicator",
+   "information",
+   "knowledge",
+   "notice",
+   "status",
+   "support",
+   "tooltip"
+  ]
+ },
+ "italic": {
+  "source": "lucide",
+  "tags": [
+   "emphasis",
+   "format",
+   "text style"
+  ]
+ },
+ "key-round": {
+  "source": "lucide",
+  "tags": [
+   "key",
+   "password",
+   "credentials",
+   "change password",
+   "access"
+  ]
+ },
+ "keyboard": {
+  "source": "lucide",
+  "tags": [
+   "shortcuts",
+   "keys",
+   "typing",
+   "hotkeys"
+  ]
+ },
+ "layers": {
+  "source": "lucide",
+  "tags": [
+   "layer list",
+   "stack",
+   "canvas layers",
+   "z order"
+  ]
+ },
+ "layers-3": {
+  "source": "lucide",
+  "tags": [
+   "levels",
+   "communities",
+   "stack",
+   "tiers",
+   "hierarchy"
+  ]
+ },
+ "layout-dashboard": {
+  "source": "lucide",
+  "tags": [
+   "masonry",
+   "brick"
+  ]
+ },
+ "layout-grid": {
+  "source": "lucide",
+  "tags": [
+   "app",
+   "home",
+   "start"
+  ]
+ },
+ "layout-template": {
+  "source": "lucide",
+  "tags": [
+   "gallery",
+   "layout",
+   "preset",
+   "templates"
+  ]
+ },
+ "library": {
+  "source": "lucide",
+  "tags": [
+   "books",
+   "reading",
+   "written",
+   "authors",
+   "stories",
+   "fiction",
+   "novels",
+   "information",
+   "knowledge",
+   "education",
+   "high school",
+   "university",
+   "college",
+   "academy",
+   "learning",
+   "study",
+   "research",
+   "collection",
+   "vinyl",
+   "records",
+   "albums",
+   "music",
+   "package"
+  ]
+ },
+ "lightbulb": {
+  "source": "lucide",
+  "tags": [
+   "idea",
+   "bright",
+   "lights"
+  ]
+ },
+ "link": {
+  "source": "lucide",
+  "tags": [
+   "chain",
+   "url"
+  ]
+ },
+ "list": {
+  "source": "lucide",
+  "tags": [
+   "options"
+  ]
+ },
+ "list-checks": {
+  "source": "lucide",
+  "tags": [
+   "checklist",
+   "tasks",
+   "to do",
+   "completed items",
+   "audit"
+  ]
+ },
+ "list-filter": {
+  "source": "lucide",
+  "tags": [
+   "options"
+  ]
+ },
+ "list-tree": {
+  "source": "lucide",
+  "tags": [
+   "tree",
+   "hierarchy",
+   "outline",
+   "file tree",
+   "nested list",
+   "navigation tree"
+  ]
+ },
+ "loader": {
+  "source": "lucide",
+  "tags": [
+   "busy",
+   "loading",
+   "progress",
+   "spinner",
+   "spinning",
+   "throbber",
+   "wait"
+  ]
+ },
+ "loader-circle": {
+  "source": "lucide",
+  "tags": [
+   "spinner",
+   "running",
+   "busy",
+   "progress"
+  ]
+ },
+ "lock": {
+  "source": "lucide",
+  "tags": [
+   "security",
+   "password",
+   "secure",
+   "admin"
+  ]
+ },
+ "lock-open": {
+  "source": "lucide",
+  "tags": [
+   "security"
+  ]
+ },
+ "log-out": {
+  "source": "lucide",
+  "tags": [
+   "sign out",
+   "logout",
+   "exit",
+   "leave"
+  ]
+ },
+ "magnet": {
+  "source": "lucide",
+  "tags": [
+   "align",
+   "attract",
+   "snap"
+  ]
+ },
+ "mail": {
+  "source": "lucide",
+  "tags": [
+   "email",
+   "message",
+   "inbox",
+   "envelope",
+   "contact"
+  ]
+ },
+ "map": {
+  "source": "lucide",
+  "tags": [
+   "location",
+   "navigation",
+   "travel",
+   "minimap",
+   "overview"
+  ]
+ },
+ "maximize": {
+  "source": "lucide",
+  "tags": [
+   "fullscreen",
+   "expand",
+   "dashed"
+  ]
+ },
+ "maximize-2": {
+  "source": "lucide",
+  "tags": [
+   "expand",
+   "fullscreen",
+   "enlarge",
+   "viewer"
+  ]
+ },
+ "megaphone": {
+  "source": "lucide",
+  "tags": [
+   "announcement",
+   "banner",
+   "broadcast",
+   "news",
+   "promo"
+  ]
+ },
+ "meh": {
+  "source": "lucide",
+  "tags": [
+   "neutral",
+   "indifferent",
+   "emotion",
+   "mood",
+   "so-so"
+  ]
+ },
+ "menu": {
+  "source": "lucide",
+  "tags": [
+   "bars",
+   "navigation",
+   "hamburger",
+   "options"
+  ]
+ },
+ "message-square": {
+  "source": "lucide",
+  "tags": [
+   "comment",
+   "chat",
+   "conversation",
+   "dialog",
+   "feedback",
+   "speech bubble"
+  ]
+ },
+ "messages-square": {
+  "source": "lucide",
+  "tags": [
+   "chat",
+   "comment",
+   "conversation",
+   "conversations",
+   "copy",
+   "debate",
+   "dialog",
+   "discussion",
+   "feedback",
+   "interview",
+   "multiple",
+   "sessions",
+   "speech bubbles"
+  ]
+ },
+ "mic": {
+  "source": "lucide",
+  "tags": [
+   "microphone",
+   "record voice",
+   "audio input",
+   "voice",
+   "dictate"
+  ]
+ },
+ "minimize": {
+  "source": "lucide",
+  "tags": [
+   "exit fullscreen",
+   "close",
+   "shrink"
+  ]
+ },
+ "minimize-2": {
+  "source": "lucide",
+  "tags": [
+   "exit fullscreen",
+   "arrows",
+   "close",
+   "shrink"
+  ]
+ },
+ "minus": {
+  "source": "lucide",
+  "tags": [
+   "subtract",
+   "remove",
+   "decrease",
+   "decrement",
+   "reduce",
+   "negative",
+   "calculate",
+   "line",
+   "divider",
+   "separator",
+   "horizontal rule",
+   "hr",
+   "html",
+   "markup",
+   "markdown",
+   "---",
+   "toolbar",
+   "operator",
+   "code",
+   "coding",
+   "minimum",
+   "downgrade"
+  ]
+ },
+ "monitor": {
+  "source": "lucide",
+  "tags": [
+   "tv",
+   "computer",
+   "desktop",
+   "screen",
+   "display",
+   "external display",
+   "screen sharing",
+   "virtual machine",
+   "vm"
+  ]
+ },
+ "moon": {
+  "source": "lucide",
+  "tags": [
+   "dark",
+   "night"
+  ]
+ },
+ "mouse-pointer-2": {
+  "source": "lucide",
+  "tags": [
+   "select tool",
+   "cursor",
+   "pointer",
+   "canvas"
+  ]
+ },
+ "move-3d": {
+  "source": "lucide",
+  "tags": [
+   "axes",
+   "3d",
+   "gizmo",
+   "transform",
+   "viewer"
+  ]
+ },
+ "music": {
+  "source": "lucide",
+  "tags": [
+   "audio",
+   "song",
+   "sound track",
+   "background music",
+   "note"
+  ]
+ },
+ "navigation": {
+  "source": "lucide",
+  "tags": [
+   "go to",
+   "bookmark",
+   "compass",
+   "location",
+   "direction"
+  ]
+ },
+ "network": {
+  "source": "lucide",
+  "tags": [
+   "tree"
+  ]
+ },
+ "package": {
+  "source": "lucide",
+  "tags": [
+   "box",
+   "container",
+   "storage",
+   "sealed",
+   "delivery",
+   "undelivered",
+   "unopened",
+   "packed",
+   "archive",
+   "zip",
+   "module"
+  ]
+ },
+ "package-open": {
+  "source": "lucide",
+  "tags": [
+   "unpack",
+   "open box",
+   "extract",
+   "release",
+   "contents"
+  ]
+ },
+ "paintbrush": {
+  "source": "lucide",
+  "tags": [
+   "brush",
+   "paintbrush",
+   "design",
+   "color",
+   "colour",
+   "decoration",
+   "diy"
+  ]
+ },
+ "palette": {
+  "source": "lucide",
+  "tags": [
+   "colors",
+   "colours",
+   "theme",
+   "scheme",
+   "paint",
+   "watercolor",
+   "watercolour",
+   "artist"
+  ]
+ },
+ "panel-left": {
+  "source": "lucide",
+  "tags": [
+   "primary",
+   "drawer"
+  ]
+ },
+ "panel-left-close": {
+  "source": "lucide",
+  "tags": [
+   "collapse pane",
+   "hide sidebar",
+   "close panel"
+  ]
+ },
+ "panel-left-open": {
+  "source": "lucide",
+  "tags": [
+   "expand pane",
+   "show sidebar",
+   "open panel"
+  ]
+ },
+ "panel-right": {
+  "source": "lucide",
+  "tags": [
+   "drawer",
+   "side sheet",
+   "sidebar right",
+   "details panel",
+   "inspector"
+  ]
+ },
+ "panel-right-close": {
+  "source": "lucide",
+  "tags": [
+   "collapse pane",
+   "hide right sidebar",
+   "close panel",
+   "inspector"
+  ]
+ },
+ "panel-right-open": {
+  "source": "lucide",
+  "tags": [
+   "expand pane",
+   "show right sidebar",
+   "open panel",
+   "inspector"
+  ]
+ },
+ "panel-top": {
+  "source": "lucide",
+  "tags": [
+   "top pane",
+   "header panel",
+   "split horizontal"
+  ]
+ },
+ "paperclip": {
+  "source": "lucide",
+  "tags": [
+   "attach",
+   "attachment",
+   "file upload",
+   "composer"
+  ]
+ },
+ "pause": {
+  "source": "lucide",
+  "tags": [
+   "music",
+   "stop"
+  ]
+ },
+ "pen-tool": {
+  "source": "lucide",
+  "tags": [
+   "vector",
+   "drawing",
+   "path"
+  ]
+ },
+ "pencil": {
+  "source": "lucide",
+  "tags": [
+   "artist",
+   "create",
+   "draft",
+   "draw",
+   "edit",
+   "rename",
+   "rubber",
+   "sketch",
+   "stationery",
+   "writer",
+   "writing"
+  ]
+ },
+ "pin": {
+  "source": "lucide",
+  "tags": [
+   "save",
+   "map",
+   "lock",
+   "fix"
+  ]
+ },
+ "pin-off": {
+  "source": "lucide",
+  "tags": [
+   "unpin",
+   "map",
+   "unlock",
+   "unfix",
+   "unsave",
+   "remove"
+  ]
+ },
+ "play": {
+  "source": "lucide",
+  "tags": [
+   "audio",
+   "music",
+   "run",
+   "start",
+   "video"
+  ]
+ },
+ "plug": {
+  "source": "lucide",
+  "tags": [
+   "electricity",
+   "energy",
+   "electronics",
+   "socket",
+   "outlet",
+   "power",
+   "voltage",
+   "current",
+   "charger"
+  ]
+ },
+ "plug-zap": {
+  "source": "lucide",
+  "tags": [
+   "add-in",
+   "connect",
+   "power"
+  ]
+ },
+ "plus": {
+  "source": "lucide",
+  "tags": [
+   "add",
+   "new",
+   "increase",
+   "increment",
+   "positive",
+   "calculate",
+   "toolbar",
+   "crosshair",
+   "aim",
+   "target",
+   "scope",
+   "sight",
+   "reticule",
+   "maximum",
+   "upgrade",
+   "extra",
+   "+"
+  ]
+ },
+ "power": {
+  "source": "lucide",
+  "tags": [
+   "binary",
+   "boolean",
+   "button",
+   "device",
+   "keyboard",
+   "off",
+   "on",
+   "reboot",
+   "restart",
+   "shutdown",
+   "switch",
+   "toggle",
+   "troubleshoot"
+  ]
+ },
+ "presentation": {
+  "source": "lucide",
+  "tags": [
+   "screen",
+   "whiteboard",
+   "marker pens",
+   "markers",
+   "blackboard",
+   "chalk",
+   "easel",
+   "school",
+   "learning",
+   "lesson",
+   "office",
+   "meeting",
+   "project",
+   "planning"
+  ]
+ },
+ "printer": {
+  "source": "lucide",
+  "tags": [
+   "print",
+   "paper",
+   "hard copy",
+   "output"
+  ]
+ },
+ "receipt": {
+  "source": "lucide",
+  "tags": [
+   "invoice",
+   "bill",
+   "cost",
+   "expenses",
+   "statement"
+  ]
+ },
+ "rectangle-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "theatre mode",
+   "wide view",
+   "landscape",
+   "cinema",
+   "widescreen"
+  ]
+ },
+ "redo-2": {
+  "source": "lucide",
+  "tags": [
+   "forward",
+   "redo",
+   "repeat"
+  ]
+ },
+ "refresh-cw": {
+  "source": "lucide",
+  "tags": [
+   "arrows",
+   "circular",
+   "cycle",
+   "refresh",
+   "reload",
+   "rerun",
+   "rotate",
+   "sync",
+   "synchronise",
+   "synchronize"
+  ]
+ },
+ "rotate-3d": {
+  "source": "lucide",
+  "tags": [
+   "orbit",
+   "rotate view",
+   "viewer",
+   "turntable"
+  ]
+ },
+ "rotate-ccw": {
+  "source": "lucide",
+  "tags": [
+   "arrow",
+   "left",
+   "counter-clockwise",
+   "restart",
+   "reload",
+   "rerun",
+   "refresh",
+   "backup",
+   "undo",
+   "replay",
+   "redo",
+   "retry",
+   "rewind",
+   "reverse"
+  ]
+ },
+ "rotate-cw": {
+  "source": "lucide",
+  "tags": [
+   "arrow",
+   "right",
+   "clockwise",
+   "refresh",
+   "reload",
+   "rerun",
+   "redo"
+  ]
+ },
+ "rows-2": {
+  "source": "lucide",
+  "tags": [
+   "split view",
+   "two rows",
+   "stacked panes",
+   "horizontal split"
+  ]
+ },
+ "ruler": {
+  "source": "lucide",
+  "tags": [
+   "measure",
+   "dimension",
+   "canvas ruler"
+  ]
+ },
+ "save": {
+  "source": "lucide",
+  "tags": [
+   "floppy disk"
+  ]
+ },
+ "scale": {
+  "source": "lucide",
+  "tags": [
+   "compliance",
+   "law",
+   "legal",
+   "balance",
+   "justice"
+  ]
+ },
+ "scan": {
+  "source": "lucide",
+  "tags": [
+   "fit to screen",
+   "frame",
+   "fit view",
+   "viewer"
+  ]
+ },
+ "scan-line": {
+  "source": "lucide",
+  "tags": [
+   "checkout",
+   "till",
+   "cart",
+   "transaction",
+   "purchase",
+   "buy",
+   "product",
+   "packaging",
+   "retail",
+   "consumer",
+   "qr-code",
+   "dashed"
+  ]
+ },
+ "scan-search": {
+  "source": "lucide",
+  "tags": [
+   "inspect",
+   "scan document",
+   "find in scan",
+   "ocr",
+   "analyse"
+  ]
+ },
+ "scissors": {
+  "source": "lucide",
+  "tags": [
+   "cut",
+   "split at playhead",
+   "trim",
+   "clip",
+   "video editor"
+  ]
+ },
+ "search": {
+  "source": "lucide",
+  "tags": [
+   "find",
+   "scan",
+   "magnifier",
+   "magnifying glass",
+   "lens",
+   "locate",
+   "explore",
+   "discover",
+   "enlarge",
+   "zoom"
+  ]
+ },
+ "search-x": {
+  "source": "lucide",
+  "tags": [
+   "abort",
+   "cancel",
+   "clear",
+   "discover",
+   "empty",
+   "enlarge",
+   "explore",
+   "find",
+   "lens",
+   "locate",
+   "magnifier",
+   "magnifying glass",
+   "no results",
+   "scan",
+   "stop",
+   "zoom"
+  ]
+ },
+ "send": {
+  "source": "lucide",
+  "tags": [
+   "submit message",
+   "chat send",
+   "paper plane"
+  ]
+ },
+ "server": {
+  "source": "lucide",
+  "tags": [
+   "cloud",
+   "host",
+   "servers",
+   "storage"
+  ]
+ },
+ "settings": {
+  "source": "lucide",
+  "tags": [
+   "cog",
+   "edit",
+   "gear",
+   "preferences"
+  ]
+ },
+ "settings-2": {
+  "source": "lucide",
+  "tags": [
+   "cog",
+   "edit",
+   "gear",
+   "preferences",
+   "slider"
+  ]
+ },
+ "shapes": {
+  "source": "lucide",
+  "tags": [
+   "categories",
+   "types",
+   "geometry",
+   "objects",
+   "components"
+  ]
+ },
+ "share-2": {
+  "source": "lucide",
+  "tags": [
+   "share",
+   "send",
+   "export",
+   "network"
+  ]
+ },
+ "shield": {
+  "source": "lucide",
+  "tags": [
+   "cybersecurity",
+   "secure",
+   "safety",
+   "protection",
+   "guardian",
+   "armored",
+   "armoured",
+   "defense",
+   "defence",
+   "defender",
+   "block",
+   "threat",
+   "prevention",
+   "antivirus",
+   "vigilance",
+   "vigilant",
+   "detection",
+   "scan",
+   "find",
+   "strength",
+   "strong",
+   "tough",
+   "invincible",
+   "invincibility",
+   "invulnerable",
+   "undamaged",
+   "audit",
+   "admin",
+   "verification",
+   "crest",
+   "bravery",
+   "knight",
+   "foot soldier",
+   "infantry",
+   "trooper",
+   "pawn",
+   "battle",
+   "war",
+   "military",
+   "army",
+   "cadet",
+   "scout"
+  ]
+ },
+ "shield-alert": {
+  "source": "lucide",
+  "tags": [
+   "unshielded",
+   "cybersecurity",
+   "insecure",
+   "unsecured",
+   "safety",
+   "unsafe",
+   "protection",
+   "unprotected",
+   "guardian",
+   "unguarded",
+   "unarmored",
+   "unarmoured",
+   "defenseless",
+   "defenceless",
+   "undefended",
+   "defender",
+   "blocked",
+   "stopped",
+   "intercepted",
+   "interception",
+   "saved",
+   "thwarted",
+   "threat",
+   "prevention",
+   "unprevented",
+   "antivirus",
+   "vigilance",
+   "vigilant",
+   "detection",
+   "detected",
+   "scanned",
+   "found",
+   "exploit",
+   "vulnerability",
+   "vulnerable",
+   "weakness",
+   "infection",
+   "infected",
+   "compromised",
+   "data leak",
+   "audited",
+   "admin",
+   "verification",
+   "unverified",
+   "uncertified",
+   "warning",
+   "emergency",
+   "attention",
+   "urgent",
+   "alarm",
+   "crest",
+   "bravery",
+   "strength",
+   "tough",
+   "attacked",
+   "damaged",
+   "injured",
+   "hit",
+   "expired",
+   "disabled",
+   "inactive",
+   "error",
+   "exclamation mark",
+   "!"
+  ]
+ },
+ "shield-check": {
+  "source": "lucide",
+  "tags": [
+   "cybersecurity",
+   "secured",
+   "safety",
+   "protection",
+   "protected",
+   "guardian",
+   "guarded",
+   "armored",
+   "armoured",
+   "defense",
+   "defence",
+   "defended",
+   "blocked",
+   "threat",
+   "prevention",
+   "prevented",
+   "antivirus",
+   "vigilance",
+   "vigilant",
+   "active",
+   "activated",
+   "enabled",
+   "detection",
+   "scanned",
+   "found",
+   "strength",
+   "strong",
+   "tough",
+   "invincible",
+   "invincibility",
+   "invulnerable",
+   "undamaged",
+   "audited",
+   "admin",
+   "verification",
+   "verified",
+   "certification",
+   "certified",
+   "tested",
+   "passed",
+   "qualified",
+   "cleared",
+   "cleaned",
+   "disinfected",
+   "uninfected",
+   "task",
+   "completed",
+   "todo",
+   "done",
+   "ticked",
+   "checked",
+   "crest",
+   "bravery"
+  ]
+ },
+ "shield-off": {
+  "source": "lucide",
+  "tags": [
+   "revoke",
+   "disable protection",
+   "unsecured",
+   "security off",
+   "revoke session"
+  ]
+ },
+ "sigma": {
+  "source": "lucide",
+  "tags": [
+   "sum",
+   "formula",
+   "math",
+   "equation",
+   "calculation"
+  ]
+ },
+ "skip-back": {
+  "source": "lucide",
+  "tags": [
+   "go to start",
+   "previous",
+   "rewind",
+   "beginning",
+   "player"
+  ]
+ },
+ "skip-forward": {
+  "source": "lucide",
+  "tags": [
+   "go to end",
+   "next",
+   "fast forward",
+   "last",
+   "player"
+  ]
+ },
+ "sliders-horizontal": {
+  "source": "lucide",
+  "tags": [
+   "settings",
+   "filters",
+   "controls"
+  ]
+ },
+ "smile": {
+  "source": "lucide",
+  "tags": [
+   "happy",
+   "positive",
+   "emotion",
+   "mood",
+   "good"
+  ]
+ },
+ "sparkles": {
+  "source": "lucide",
+  "tags": [
+   "ai",
+   "assistant",
+   "magic",
+   "generate"
+  ]
+ },
+ "spline": {
+  "source": "lucide",
+  "tags": [
+   "bar",
+   "beam",
+   "curve",
+   "link",
+   "member",
+   "path"
+  ]
+ },
+ "square": {
+  "source": "lucide",
+  "tags": [
+   "1:1",
+   "aspect ratio",
+   "audio",
+   "music",
+   "playback",
+   "rectangle",
+   "shape",
+   "stop",
+   "video"
+  ]
+ },
+ "square-check": {
+  "source": "lucide",
+  "tags": [
+   "checkbox",
+   "checked",
+   "done",
+   "task",
+   "selected"
+  ]
+ },
+ "square-pen": {
+  "source": "lucide",
+  "tags": [
+   "edit",
+   "compose",
+   "write",
+   "rename"
+  ]
+ },
+ "square-terminal": {
+  "source": "lucide",
+  "tags": [
+   "console",
+   "command line",
+   "shell",
+   "prompt",
+   "terminal window"
+  ]
+ },
+ "star": {
+  "source": "lucide",
+  "tags": [
+   "bookmark",
+   "favorite",
+   "like",
+   "review",
+   "rating"
+  ]
+ },
+ "sun": {
+  "source": "lucide",
+  "tags": [
+   "brightness",
+   "weather",
+   "light",
+   "summer"
+  ]
+ },
+ "table": {
+  "source": "lucide",
+  "tags": [
+   "spreadsheet",
+   "grid"
+  ]
+ },
+ "table-2": {
+  "source": "lucide",
+  "tags": [
+   "spreadsheet",
+   "grid"
+  ]
+ },
+ "tag": {
+  "source": "lucide",
+  "tags": [
+   "label",
+   "badge",
+   "ticket",
+   "mark"
+  ]
+ },
+ "target": {
+  "source": "lucide",
+  "tags": [
+   "logo",
+   "bullseye",
+   "deadline",
+   "projects",
+   "overview",
+   "work",
+   "productivity"
+  ]
+ },
+ "terminal": {
+  "source": "lucide",
+  "tags": [
+   "code",
+   "command line",
+   "prompt",
+   "shell"
+  ]
+ },
+ "thumbs-down": {
+  "source": "lucide",
+  "tags": [
+   "dislike",
+   "bad response",
+   "feedback",
+   "rate"
+  ]
+ },
+ "thumbs-up": {
+  "source": "lucide",
+  "tags": [
+   "like",
+   "good response",
+   "feedback",
+   "rate"
+  ]
+ },
+ "tools-ring": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "composer tools",
+   "active tools",
+   "tool count",
+   "progress"
+  ]
+ },
+ "tools-ring-fill-1": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "1 active"
+  ]
+ },
+ "tools-ring-fill-2": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "2 active"
+  ]
+ },
+ "tools-ring-fill-3": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "3 active"
+  ]
+ },
+ "tools-ring-fill-4": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "4 active"
+  ]
+ },
+ "tools-ring-fill-5": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "5 active"
+  ]
+ },
+ "tools-ring-fill-6": {
+  "source": "custom",
+  "tags": [
+   "tools",
+   "active tools",
+   "tool count",
+   "overlay",
+   "6 active"
+  ]
+ },
+ "trash-2": {
+  "source": "lucide",
+  "tags": [
+   "bin",
+   "delete",
+   "recycle",
+   "remove"
+  ]
+ },
+ "triangle": {
+  "source": "lucide",
+  "tags": [
+   "pin",
+   "pinned",
+   "shape",
+   "support",
+   "wedge"
+  ]
+ },
+ "triangle-alert": {
+  "source": "lucide",
+  "tags": [
+   "alert",
+   "caution",
+   "danger",
+   "exclamation mark",
+   "linter",
+   "warning"
+  ]
+ },
+ "type": {
+  "source": "lucide",
+  "tags": [
+   "text",
+   "font",
+   "typography"
+  ]
+ },
+ "undo-2": {
+  "source": "lucide",
+  "tags": [
+   "undo",
+   "revert",
+   "back",
+   "history"
+  ]
+ },
+ "ungroup": {
+  "source": "lucide",
+  "tags": [
+   "cubes",
+   "packages",
+   "parts",
+   "units",
+   "collection",
+   "cluster",
+   "separate"
+  ]
+ },
+ "unlink": {
+  "source": "lucide",
+  "tags": [
+   "detach",
+   "disconnect",
+   "remove link",
+   "break link",
+   "unlink"
+  ]
+ },
+ "upload": {
+  "source": "lucide",
+  "tags": [
+   "file"
+  ]
+ },
+ "user": {
+  "source": "lucide",
+  "tags": [
+   "person",
+   "account",
+   "contact"
+  ]
+ },
+ "user-plus": {
+  "source": "lucide",
+  "tags": [
+   "add user",
+   "invite",
+   "share with",
+   "new member",
+   "add person"
+  ]
+ },
+ "users": {
+  "source": "lucide",
+  "tags": [
+   "group",
+   "people"
+  ]
+ },
+ "video": {
+  "source": "lucide",
+  "tags": [
+   "camera",
+   "movie",
+   "film",
+   "recording",
+   "motion picture",
+   "camcorder",
+   "reel"
+  ]
+ },
+ "volume-2": {
+  "source": "lucide",
+  "tags": [
+   "music",
+   "sound",
+   "speaker"
+  ]
+ },
+ "volume-x": {
+  "source": "lucide",
+  "tags": [
+   "muted",
+   "mute",
+   "no sound",
+   "silent",
+   "audio off"
+  ]
+ },
+ "wifi": {
+  "source": "lucide",
+  "tags": [
+   "connection",
+   "signal",
+   "wireless"
+  ]
+ },
+ "workflow": {
+  "source": "lucide",
+  "tags": [
+   "action",
+   "continuous integration",
+   "ci",
+   "automation",
+   "devops",
+   "network",
+   "node",
+   "connection"
+  ]
+ },
+ "wrap-text": {
+  "source": "lucide",
+  "tags": [
+   "word wrap",
+   "line wrap",
+   "soft wrap",
+   "log wrap"
+  ]
+ },
+ "wrench": {
+  "source": "lucide",
+  "tags": [
+   "account",
+   "settings",
+   "spanner",
+   "diy",
+   "toolbox",
+   "build",
+   "construction"
+  ]
+ },
+ "x": {
+  "source": "lucide",
+  "tags": [
+   "cancel",
+   "clear",
+   "close",
+   "cross",
+   "delete",
+   "dismiss",
+   "ex",
+   "math",
+   "multiplication",
+   "multiply",
+   "remove",
+   "times"
+  ]
+ },
+ "zap": {
+  "source": "lucide",
+  "tags": [
+   "flash",
+   "camera",
+   "lightning",
+   "electricity",
+   "energy",
+   "power",
+   "quick"
+  ]
+ },
+ "zoom-in": {
+  "source": "lucide",
+  "tags": [
+   "magnify",
+   "zoom",
+   "canvas",
+   "viewer"
+  ]
+ },
+ "zoom-out": {
+  "source": "lucide",
+  "tags": [
+   "shrink",
+   "zoom",
+   "canvas",
+   "viewer"
+  ]
+ }
+}
