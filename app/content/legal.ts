@@ -1,7 +1,7 @@
 import { profile } from "./profile";
 
 // Legal page data. `npm run check:content:strict` fails while any open-item marker is left in app/, so the site cannot be launched incomplete.
-// TODO: add street and house number below. A full postal address is required for the Impressum; the postcode and city are what is known so far.
+// Owner decision (2026-11-11): the site shows the postcode and city only, not the street, to keep the home address private.
 const address = "70193 Stuttgart, Germany";
 
 export const legal = {
