@@ -1,10 +1,11 @@
+import { profile } from "./profile";
+
 // Legal page data. The gate (`npm run check:content:strict`) fails while any value still says TODO, so the site cannot be deployed incomplete.
 export const legal = {
   imprint: {
-    name: "Shailesh Shrestha",
+    name: profile.name,
     address: "TODO: postal address for the Impressum",
-    email: "TODO: contact email for the Impressum",
-    phone: "TODO: decide whether a phone number is needed",
+    emails: [profile.contact.personalEmail, profile.contact.workEmail],
   },
   privacy: {
     controller: "TODO: same details as the Impressum",

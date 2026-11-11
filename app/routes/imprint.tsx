@@ -19,8 +19,15 @@ export default function Imprint() {
             <br />
             {legal.imprint.address}
           </p>
-          <p>Email: {legal.imprint.email}</p>
-          <p>Phone: {legal.imprint.phone}</p>
+          <p>
+            Email:{" "}
+            {legal.imprint.emails.map((email, index) => (
+              <span key={email}>
+                {index > 0 ? ", " : ""}
+                <a className="link link--muted" href={`mailto:${email}`}>{email}</a>
+              </span>
+            ))}
+          </p>
         </div>
       </div>
     </section>

@@ -93,6 +93,14 @@ export default function Home() {
 
       <Section id="contact" title="Contact" lead="Happy to talk about AI and engineering software.">
         <div className="cluster">
+          <a className="btn" href={`mailto:${profile.contact.personalEmail}`}>
+            <Icon name="mail" />
+            Personal email
+          </a>
+          <a className="btn" href={`mailto:${profile.contact.workEmail}`}>
+            <Icon name="mail" />
+            Work email
+          </a>
           <a className="btn" href={profile.links.github} target="_blank" rel="noopener noreferrer">
             <Icon name="git-branch" />
             GitHub
