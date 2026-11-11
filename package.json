@@ -17,6 +17,10 @@
     "test": "node --test \"scripts/**/*.test.mjs\"",
     "postinstall": "wrangler types"
   },
+  "allowScripts": {
+    "esbuild": true,
+    "workerd": true
+  },
   "dependencies": {
     "isbot": "^5.1.36",
     "react": "^19.3.1",
